@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    margin-left: 30px;
+    max-width: 400px;
+}
+
+.banner h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.banner-buttons button {
+    font-size: 1.5em;
+    margin-right: 1em;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.banner-buttons button:hover {
+    background-color: #ff0a16;
+}
+
+.movie-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.movie-item {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
